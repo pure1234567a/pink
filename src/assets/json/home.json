@@ -1,23 +1,23 @@
 {
     "title": "Home",
     "items": [{
-            "name": "Cancle Order",
-            "img": "https://images.onlinelabels.com/images/clip-art/molumen/molumen_red_round_error_warning_icon.png",
+            "name": "Accept",
+            "img": "https://d30y9cdsu7xlg0.cloudfront.net/png/165055-200.png",
             "total": 0
         },
         {
-            "name": "Wrong Number",
-            "img": "https://image.freepik.com/iconos-gratis/popular-telefono-movil-samsung-galaxy_318-51550.jpg",
+            "name": "Waiting",
+            "img": "https://visualpharm.com/assets/426/Delivery-595b40b85ba036ed117dcef1.svg",
             "total": 0
         },
         {
-            "name": "Wrong Address",
-            "img": "http://www.myiconfinder.com/uploads/iconsets/79a6cc671eb7205ea4903436e08851c4-map.png",
+            "name": "Sorting",
+            "img": "https://cdn.iconscout.com/public/images/icon/free/png-512/delivery-transport-warehouse-godown-storage-storehouse-3f47111ba443eeb8-512x512.png",
             "total": 0
         },
         {
-            "name": "Postpone",
-            "img": "http://icons.iconarchive.com/icons/musett/antares/256/Dashboard-icon.png",
+            "name": "Receive",
+            "img": "https://cdn1.iconfinder.com/data/icons/e-commerce-set-1/256/Door-to-door_shipping-512.png",
             "total": 0
         }
     ],

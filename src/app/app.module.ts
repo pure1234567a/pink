@@ -67,6 +67,8 @@ import { MorePage } from '../pages/more/more';
 //////////////////////component////////////////////
 import { HomeDetailComponent } from '../components/home-detail/home-detail';
 import { BookingAddressComponent } from '../components/booking-address/booking-address';
+import { CostDetailComponent } from '../components/cost-detail/cost-detail';
+import { SlideTabsComponent } from '../components/slide-tabs/slide-tabs';
 
 
 
@@ -74,6 +76,7 @@ import { BookingAddressComponent } from '../components/booking-address/booking-a
 /////////////////////providers/////////////////////
 import { HomeServiceProvider } from '../pages/home/home.service';
 import { BookingServiceProvider } from '../pages/booking/booking.service';
+import { CostServiceProvider } from '../pages/cost/cost.service';
 
 
 export function createTranslateLoader(http: Http) {
@@ -101,7 +104,9 @@ export function createTranslateLoader(http: Http) {
     CounterInput,
     Rating,
     HomeDetailComponent,
-    BookingAddressComponent
+    BookingAddressComponent,
+    CostDetailComponent,
+    SlideTabsComponent
     // GoogleMap
   ],
   imports: [
@@ -149,7 +154,8 @@ export function createTranslateLoader(http: Http) {
 		Crop,
 		EmailComposer,
     HomeServiceProvider,
-    BookingServiceProvider
+    BookingServiceProvider,
+    CostServiceProvider
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })

@@ -1,0 +1,41 @@
+<!-- Generated template for the ScrollbarsComponent component -->
+<div class="slide-tabs">
+    <ion-toolbar no-border class="scrollable-segments">
+        <ion-segment id="scrollable" [(ngModel)]="tabs">
+            <ion-segment-button value="0" (click)="selectTab(0)">
+                Accept
+            </ion-segment-button>
+            <ion-segment-button value="1" (click)="selectTab(1)">
+                Waiting
+            </ion-segment-button>
+            <ion-segment-button value="2" (click)="selectTab(2)">
+                Sorting
+            </ion-segment-button>
+            <ion-segment-button value="3" (click)="selectTab(3)">
+                Receive
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+    <ion-slides #tabsSlider (ionSlideWillChange)="changeWillSlide($event)">
+        <ion-slide>
+            <ion-content padding>
+                slide1
+            </ion-content>
+        </ion-slide>
+        <ion-slide>
+            <ion-content padding>
+                slide2
+            </ion-content>
+        </ion-slide>
+        <ion-slide>
+            <ion-content padding>
+                slide3
+            </ion-content>
+        </ion-slide>
+        <ion-slide>
+            <ion-content padding>
+                slide4
+            </ion-content>
+        </ion-slide>
+    </ion-slides>
+</div>

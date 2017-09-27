@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomeServiceProvider } from "./home.service";
 import { HomeModel } from "./home.model";
+import { BookingPage } from '../booking/booking';
 
 /**
  * Generated class for the HomePage page.
@@ -31,6 +32,9 @@ export class HomePage {
     },(error) => {
       console.error(error);
     });
+  }
+  gotoBooking(){
+    this.navCtrl.push(BookingPage);
   }
 
 }

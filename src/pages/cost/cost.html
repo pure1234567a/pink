@@ -13,6 +13,26 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <!-- <ion-toolbar no-border-top> -->
+  <ion-segment [(ngModel)]="price">
+      <ion-segment-button value="lamunphan">
+          Lamunphan
+      </ion-segment-button>
+      <ion-segment-button value="thaipost">
+          Thaipost
+      </ion-segment-button>
+  </ion-segment>
+  <!-- </ion-toolbar> -->
 
+  <div [ngSwitch]="price">
+      <div *ngSwitchCase="'lamunphan'">
+          <!-- <history [historyData]="historys.paid.listorder" [amount]="historys.paid.amount"></history> -->
+          <cost-detail [items]="cost.lamunphan.rates"></cost-detail>
+      </div>
+      <div *ngSwitchCase="'thaipost'">
+          <!-- <history [historyData]="historys.unpay.listorder" [amount]="historys.unpay.amount"></history> -->
+          <cost-detail [items]="cost.thaipost.rates"></cost-detail>
+      </div>
+  </div>
 </ion-content>

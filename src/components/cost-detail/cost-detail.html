@@ -1,0 +1,18 @@
+<!-- Generated template for the CostDetailComponent component -->
+<ion-list>
+  <div ion-item *ngFor="let itm of items">
+    <ion-row>
+      <ion-col>
+        <p>{{itm.name}}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p>{{itm.description}}</p>
+      </ion-col>
+      <ion-col text-right>
+        <h1 class="font-bold"> {{itm.value}}</h1>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-list>
