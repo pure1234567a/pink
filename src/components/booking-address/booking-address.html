@@ -1,0 +1,12 @@
+<!-- Generated template for the BookingAddressComponent component -->
+<ion-list>
+  <button ion-item *ngFor="let item of items">
+        <p><b>{{item.nameplace}}</b></p><br>
+        <p>{{item.addressplace.address}}</p>
+        <p>{{item.addressplace.subdistrict}}
+        {{item.addressplace.district}}
+        {{item.addressplace.province}}
+        {{item.addressplace.postcode}}</p><br>
+        <p>Tel : {{item.telplace}}</p>
+      </button>
+</ion-list>

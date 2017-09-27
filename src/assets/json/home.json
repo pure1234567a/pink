@@ -1,0 +1,52 @@
+{
+    "title": "Home",
+    "items": [{
+            "name": "Cancle Order",
+            "img": "https://images.onlinelabels.com/images/clip-art/molumen/molumen_red_round_error_warning_icon.png",
+            "total": 0
+        },
+        {
+            "name": "Wrong Number",
+            "img": "https://image.freepik.com/iconos-gratis/popular-telefono-movil-samsung-galaxy_318-51550.jpg",
+            "total": 0
+        },
+        {
+            "name": "Wrong Address",
+            "img": "http://www.myiconfinder.com/uploads/iconsets/79a6cc671eb7205ea4903436e08851c4-map.png",
+            "total": 0
+        },
+        {
+            "name": "Postpone",
+            "img": "http://icons.iconarchive.com/icons/musett/antares/256/Dashboard-icon.png",
+            "total": 0
+        }
+    ],
+    "currentbooking": {
+        "date": "Tue",
+        "time": "13:00-14:30",
+        "staffcode": "234",
+        "pickupaddress": "Bang Bon",
+        "deliveryaddress": "Lumlookka",
+        "items": [{
+            "name": "Box",
+            "description": "Box1",
+            "value": "45",
+            "qty": "1"
+        }, {
+            "name": "Box2",
+            "description": "Box1",
+            "value": "45",
+            "qty": "2"
+        }, {
+            "name": "Box3",
+            "description": "Box1",
+            "value": "45",
+            "qty": "1"
+        }, {
+            "name": "Box4",
+            "description": "Box1",
+            "value": "45",
+            "qty": "2"
+        }]
+    }
+}

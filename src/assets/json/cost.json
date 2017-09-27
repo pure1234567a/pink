@@ -1,0 +1,28 @@
+{
+    "lamunphan": {
+        "rates": [{
+                "name": "Box0",
+                "description": "0-35 cm",
+                "value": "35 ฿"
+            },
+            {
+                "name": "Box1",
+                "description": "0-35 cm",
+                "value": "35 ฿"
+            }
+        ]
+    },
+    "thaipost": {
+        "rates": [{
+                "name": "Weight",
+                "description": "0-20",
+                "value": "52 ฿"
+            },
+            {
+                "name": "Weight",
+                "description": "21-100 cm",
+                "value": "52 ฿"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+<!-- Generated template for the HomeDetailComponent component -->
+<div>
+    <ion-list>
+        <button ion-item *ngFor="let item of items" (click)="onClick(item)">
+        <ion-row>
+          <ion-col no-padding width-10 class="magin-right-10-custom">
+            <preload-image [ratio]="{w:0.5, h:0.5}" [src]="item.img"></preload-image>
+          </ion-col>
+           <ion-col class="margin-left-custom">
+            <h3 class="h3-name">{{item.name}}</h3>
+          </ion-col> 
+          <ion-col text-right>
+              <h3 class="h3-name">Total : {{item.total}}</h3>
+            </ion-col> 
+        </ion-row>
+      </button>
+    </ion-list>
+  </div>

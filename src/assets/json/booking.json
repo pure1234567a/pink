@@ -1,0 +1,29 @@
+{
+    "items": [{
+        "nameplace": "Lamunphan",
+        "addressplace": {
+            "address": "144/555 คอฟฟี่ไอเดีย สเปลช",
+            "subdistrict": "บึงคำพร้อย",
+            "district": "วงแหวน-ลำลูกกา",
+            "province": "ปทุมธานี",
+            "postcode": "11050"
+        },
+        "telplace": "0988888888",
+        "timeplace": "18:00",
+        "dateplace": "18/04/2560",
+        "pieceplace": "1"
+    }, {
+        "nameplace": "PinkHome",
+        "addressplace": {
+            "address": "หอพักโชคเศรษฐี 19/7-8 หมู่ 2",
+            "subdistrict": "ไผ่ลิง",
+            "district": "พระนครศรีอยุธยา",
+            "province": "พระนครศรีอยุธยา",
+            "postcode": "13000"
+        },
+        "telplace": "0917140838",
+        "timeplace": "18:00",
+        "dateplace": "20/04/2560",
+        "pieceplace": "1"
+    }]
+}
