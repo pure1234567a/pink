@@ -1,0 +1,64 @@
+<!--
+  Generated template for the SettingProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>settingProfile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-grid padding>
+        <ion-row text-center>
+          <ion-col col-12><img width="50%" [src]="settingProfile.img"></ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-list>
+        <ion-item>
+          <ion-label>FirstName : </ion-label>
+          <ion-input type="text" [(ngModel)]="settingProfile.firstName"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>LastName : </ion-label>
+          <ion-input type="text" [(ngModel)]="settingProfile.lastName"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Mobile : </ion-label>
+          <ion-input type="text" [(ngModel)]="settingProfile.mobileNumber"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Address : </ion-label>
+            <ion-input type="text" [(ngModel)]="settingProfile.address"></ion-input>
+          </ion-item>
+        <ion-item>
+          <ion-label>Email : </ion-label>
+          <ion-input type="text" [(ngModel)]="settingProfile.email"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>passwordOld : </ion-label>
+            <ion-input type="password" [(ngModel)]="settingProfile.passwordOld"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>passwordNew : </ion-label>
+            <ion-input type="password" [(ngModel)]="settingProfile.passwordNew"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>confirmPassword : </ion-label>
+            <ion-input type="password" [(ngModel)]="settingProfile.confirmPassword"></ion-input>
+          </ion-item>
+      </ion-list>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+      <button ion-button block color="secondary">
+                  Save
+      </button>
+    </ion-toolbar>
+  </ion-footer>

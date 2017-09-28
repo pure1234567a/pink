@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BookingServiceProvider } from "./booking.service";
 import { BookingModel } from "./booking.model";
+import { AddressPickupPage } from '../address-pickup/address-pickup';
 
 /**
  * Generated class for the BookingPage page.
@@ -35,8 +36,8 @@ export class BookingPage {
   // gotoDate(){
   //   this.navCtrl.push(PickupDatePage);
   // }
-  // gotoPickup(){
-  //   this.navCtrl.push(AddPickupAddressPage);
-  // }
+  gotoPickup(){
+    this.navCtrl.push(AddressPickupPage);
+  }
 
 }

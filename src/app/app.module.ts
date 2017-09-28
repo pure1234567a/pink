@@ -62,6 +62,8 @@ import { BookingPage } from '../pages/booking/booking';
 import { CostPage } from '../pages/cost/cost';
 import { StatusPage } from '../pages/status/status';
 import { MorePage } from '../pages/more/more';
+import { SettingProfilePage } from '../pages/setting-profile/setting-profile';
+import { AddressPickupPage } from '../pages/address-pickup/address-pickup';
 
 
 //////////////////////component////////////////////
@@ -69,14 +71,15 @@ import { HomeDetailComponent } from '../components/home-detail/home-detail';
 import { BookingAddressComponent } from '../components/booking-address/booking-address';
 import { CostDetailComponent } from '../components/cost-detail/cost-detail';
 import { SlideTabsComponent } from '../components/slide-tabs/slide-tabs';
-
-
+import { AddPickupComponent } from '../components/add-pickup/add-pickup';
 
 
 /////////////////////providers/////////////////////
 import { HomeServiceProvider } from '../pages/home/home.service';
 import { BookingServiceProvider } from '../pages/booking/booking.service';
 import { CostServiceProvider } from '../pages/cost/cost.service';
+import { SettingProfileServiceProvider } from '../pages/setting-profile/setting-profile.service';
+import { AddressPickupServiceProvider } from '../pages/address-pickup/address-pickup.service';
 
 
 export function createTranslateLoader(http: Http) {
@@ -94,6 +97,9 @@ export function createTranslateLoader(http: Http) {
     CostPage,
     StatusPage,
     MorePage,
+    SettingProfilePage,
+    AddressPickupPage,
+    
     
 
     PreloadImage,
@@ -106,7 +112,8 @@ export function createTranslateLoader(http: Http) {
     HomeDetailComponent,
     BookingAddressComponent,
     CostDetailComponent,
-    SlideTabsComponent
+    SlideTabsComponent,
+    AddPickupComponent
     // GoogleMap
   ],
   imports: [
@@ -132,7 +139,9 @@ export function createTranslateLoader(http: Http) {
     BookingPage,
     CostPage,
     StatusPage,
-    MorePage
+    MorePage,
+    SettingProfilePage,
+    AddressPickupPage
   ],
   providers: [
     // GoogleMapsService,
@@ -155,7 +164,9 @@ export function createTranslateLoader(http: Http) {
 		EmailComposer,
     HomeServiceProvider,
     BookingServiceProvider,
-    CostServiceProvider
+    CostServiceProvider,
+    SettingProfileServiceProvider,
+    AddressPickupServiceProvider
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
